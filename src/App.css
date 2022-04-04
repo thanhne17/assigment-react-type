@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+table, tr , td {
+  border:  1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table{
+  margin-top: 55px;
+}
+
+.flex > li {
+  margin: 0 10px;
+  
+}
+
+.flex > li >a {
+  @apply text-[#fff]
+}
+
+i {
+  @apply mx-[5px]
+}
+
+.noidung_dropdown{
+  display: none;
+  box-shadow: 0 0 20px rgba(132, 132, 132, 0.558);
+  animation: dropdown .5s;
+}
+
+.show {
+  display: block;
+}
+
+@keyframes dropdown {
+  from{
+    transform: translateY(0);
+    opacity: 0;
+}
+to{
+    transform: translateY(20px);
+    opacity: 1;
+}
+}
