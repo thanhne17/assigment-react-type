@@ -6,5 +6,4 @@ export type routeType = {
     description: String,
     image_url: String,
     will_learns: []
-
 } 

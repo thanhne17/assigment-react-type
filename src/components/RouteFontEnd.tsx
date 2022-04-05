@@ -29,7 +29,7 @@ const RouteFontEnd = (props: Props) => {
         <div className="">
             <div className="flex flex-wrap justify-start">
             {coures.filter((Element)=>{
-                return Element.isFontEnd || !Element.isBackEnd == true
+                return Element.isFontEnd
             }).map((data,index)=>{
                 return (
                         <NavLink key={index} to={`/courses/${data.id}`} className="w-[23%] mx-[10px]">

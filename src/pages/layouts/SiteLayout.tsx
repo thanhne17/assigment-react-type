@@ -12,7 +12,7 @@ const SiteLayout = (props: Props) => {
             <Header />
             <div className="flex">
                 <div className=""><NavSite/></div>
-                <div className="overflow-hidden mt-[20px] ">
+                <div className="overflow-hidden mt-[20px] w-[100%]">
                     <Outlet />
                 </div>
             </div>

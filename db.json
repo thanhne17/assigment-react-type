@@ -567,6 +567,182 @@
           "course_id": 13,
           "content": "Đủ hành trang tự tin apply đi xin việc"
         }
+      ],
+      "tracks": [
+        {
+          "id": 63,
+          "course_id": 7,
+          "title": "Khái niệm kỹ thuật cần biết",
+          "is_free": true,
+          "position": 1,
+          "track_steps": [
+            {
+              "id": 2321,
+              "track_id": 63,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 238,
+              "position": 1,
+              "step": {
+                "id": 238,
+                "title": "Mô hình Client - Server là gì?",
+                "duration": 695,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2322,
+              "track_id": 63,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 239,
+              "position": 2,
+              "step": {
+                "id": 239,
+                "title": "Domain là gì? Tên miền là gì?",
+                "duration": 634,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "course_id": 7,
+          "title": "Môi trường, con người IT",
+          "is_free": true,
+          "position": 2,
+          "track_steps": [
+            {
+              "id": 2355,
+              "track_id": 62,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 272,
+              "position": 3,
+              "step": {
+                "id": 272,
+                "title": "Học IT cần tố chất gì? Góc nhìn khác từ chuyên gia định hướng giáo dục",
+                "duration": 1450,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2780,
+              "track_id": 62,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 760,
+              "position": 4,
+              "step": {
+                "id": 760,
+                "title": "Sinh viên IT đi thực tập tại doanh nghiệp cần biết những gì?",
+                "duration": 2091,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2778,
+              "track_id": 62,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 758,
+              "position": 5,
+              "step": {
+                "id": 758,
+                "title": "Trải nghiệm thực tế sau 2 tháng làm việc tại doanh nghiệp của học viên F8?",
+                "duration": 2833,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "course_id": 7,
+          "title": "Phương pháp, định hướng",
+          "is_free": true,
+          "position": 3,
+          "track_steps": [
+            {
+              "id": 2515,
+              "track_id": 23,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 456,
+              "position": 6,
+              "step": {
+                "id": 456,
+                "title": "Phương pháp học lập trình của Admin F8?",
+                "duration": 1446,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2586,
+              "track_id": 23,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 533,
+              "position": 7,
+              "step": {
+                "id": 533,
+                "title": "Làm sao để có thu nhập cao và đi xa hơn trong ngành IT?",
+                "duration": 1540,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2325,
+              "track_id": 23,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 242,
+              "position": 8,
+              "step": {
+                "id": 242,
+                "title": "8 lời khuyên giúp học lập trình tại F8 hiệu quả hơn!",
+                "duration": 387,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2781,
+              "track_id": 23,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 761,
+              "position": 9,
+              "step": {
+                "id": 761,
+                "title": "Tại sao nên học trên website này hơn là học trên Youtube?",
+                "duration": 494,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 116,
+          "course_id": 7,
+          "title": "Ứng tuyển xin việc làm",
+          "is_free": false,
+          "position": 4,
+          "track_steps": [
+            {
+              "id": 2826,
+              "track_id": 116,
+              "step_type": "App\\Common\\Models\\Lesson",
+              "step_id": 687,
+              "position": 10,
+              "step": {
+                "id": 687,
+                "title": "Hướng dẫn ứng tuyển xin việc làm",
+                "duration": 780
+              }
+            }
+          ]
+        }
       ]
     },
     {
@@ -657,6 +833,2100 @@
           "id": 87,
           "course_id": 13,
           "content": "Đủ hành trang tự tin apply đi xin việc"
+        }
+      ],
+      "tracks": [
+        {
+          "id": 4,
+          "course_id": 2,
+          "title": "Bắt đầu",
+          "is_free": true,
+          "position": 1,
+          "track_steps": [
+            {
+              "id": 2134,
+              "track_id": 4,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 44,
+              "position": 1,
+              "step": {
+                "id": 44,
+                "title": "Làm được gì sau khóa học?",
+                "duration": 195,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2135,
+              "track_id": 4,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 45,
+              "position": 2,
+              "step": {
+                "id": 45,
+                "title": "HTML, CSS là gì?",
+                "duration": 149,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2136,
+              "track_id": 4,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 46,
+              "position": 3,
+              "step": {
+                "id": 46,
+                "title": "Làm quen với Dev tools",
+                "duration": 235,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2137,
+              "track_id": 4,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 48,
+              "position": 4,
+              "step": {
+                "id": 48,
+                "title": "Cài đặt môi trường",
+                "duration": 177,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2590,
+              "track_id": 4,
+              "step_type": "App\\Common\\Models\\Lesson",
+              "step_id": 536,
+              "position": 5,
+              "step": {
+                "id": 536,
+                "title": "Lưu ý khi học lập trình tại F8",
+                "duration": 120
+              }
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "course_id": 2,
+          "title": "Làm quen với HTML",
+          "is_free": true,
+          "position": 2,
+          "track_steps": [
+            {
+              "id": 2138,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 49,
+              "position": 6,
+              "step": {
+                "id": 49,
+                "title": "Cấu trúc file HTML",
+                "duration": 380,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2840,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Lesson",
+              "step_id": 688,
+              "position": 7,
+              "step": {
+                "id": 688,
+                "title": "Làm quen với màn thử thách",
+                "duration": 60
+              }
+            },
+            {
+              "id": 2785,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 1,
+              "position": 8,
+              "step": {
+                "id": 1,
+                "title": "Ví dụ cấu trúc file HTML",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2139,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 50,
+              "position": 9,
+              "step": {
+                "id": 50,
+                "title": "Comments trong HTML",
+                "duration": 132,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2786,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 2,
+              "position": 10,
+              "step": {
+                "id": 2,
+                "title": "Ví dụ comments trong HTML",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2140,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 51,
+              "position": 11,
+              "step": {
+                "id": 51,
+                "title": "Các thẻ HTML thông dụng",
+                "duration": 668,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2787,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 3,
+              "position": 12,
+              "step": {
+                "id": 3,
+                "title": "Ví dụ thẻ HTML thông dụng",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2788,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 4,
+              "position": 13,
+              "step": {
+                "id": 4,
+                "title": "Bài tập thẻ HTML thông dụng #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2791,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 7,
+              "position": 14,
+              "step": {
+                "id": 7,
+                "title": "Bài tập thẻ HTML thông dụng #2",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2792,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 8,
+              "position": 15,
+              "step": {
+                "id": 8,
+                "title": "Bài tập thẻ HTML thông dụng #3",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2141,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 52,
+              "position": 16,
+              "step": {
+                "id": 52,
+                "title": "Attribute trong HTML là gì?",
+                "duration": 114,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2789,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 5,
+              "position": 17,
+              "step": {
+                "id": 5,
+                "title": "Bài tập sử dụng Attribute #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2777,
+              "track_id": 41,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 357,
+              "position": 18,
+              "step": {
+                "id": 357,
+                "title": "Cách quản lý thư mục dự án",
+                "duration": 710,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "course_id": 2,
+          "title": "Làm quen với CSS",
+          "is_free": true,
+          "position": 3,
+          "track_steps": [
+            {
+              "id": 2142,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 53,
+              "position": 19,
+              "step": {
+                "id": 53,
+                "title": "Sử dụng CSS trong HTML",
+                "duration": 433,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2790,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 6,
+              "position": 20,
+              "step": {
+                "id": 6,
+                "title": "Thực hành sử dụng CSS internal",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2143,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 54,
+              "position": 21,
+              "step": {
+                "id": 54,
+                "title": "ID và Class",
+                "duration": 258,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2793,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 9,
+              "position": 22,
+              "step": {
+                "id": 9,
+                "title": "Thực hành sử dụng CSS external",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2587,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Lesson",
+              "step_id": 534,
+              "position": 23,
+              "step": {
+                "id": 534,
+                "title": "CSS selectors cơ bản",
+                "duration": 240
+              }
+            },
+            {
+              "id": 2794,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 10,
+              "position": 24,
+              "step": {
+                "id": 10,
+                "title": "Ví dụ sử dụng CSS selectors cơ bản",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2795,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 11,
+              "position": 25,
+              "step": {
+                "id": 11,
+                "title": "Thực hành CSS selectors #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2144,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 55,
+              "position": 26,
+              "step": {
+                "id": 55,
+                "title": "Độ ưu tiên trong CSS",
+                "duration": 631,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2796,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 12,
+              "position": 27,
+              "step": {
+                "id": 12,
+                "title": "Thực hành độ ưu tiên trong CSS #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2145,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 56,
+              "position": 28,
+              "step": {
+                "id": 56,
+                "title": "Sử dụng biến trong CSS",
+                "duration": 228,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2797,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 13,
+              "position": 29,
+              "step": {
+                "id": 13,
+                "title": "Vấn đề khi không sử dụng biến CSS",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2798,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 14,
+              "position": 30,
+              "step": {
+                "id": 14,
+                "title": "Giải quyết vấn đề với biến CSS",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2148,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 59,
+              "position": 31,
+              "step": {
+                "id": 59,
+                "title": "Các đơn vị trong CSS",
+                "duration": 656,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2799,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 15,
+              "position": 32,
+              "step": {
+                "id": 15,
+                "title": "Ví dụ sử dụng đơn vị % #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2801,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 17,
+              "position": 33,
+              "step": {
+                "id": 17,
+                "title": "Reset margin được đặt mặc định",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2802,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 18,
+              "position": 34,
+              "step": {
+                "id": 18,
+                "title": "Thực hành reset CSS",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2803,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 19,
+              "position": 35,
+              "step": {
+                "id": 19,
+                "title": "Ví dụ sử dụng đơn vị % #2",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2804,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 20,
+              "position": 36,
+              "step": {
+                "id": 20,
+                "title": "Ví dụ sử dụng đơn vị rem #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2805,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 21,
+              "position": 37,
+              "step": {
+                "id": 21,
+                "title": "Vấn đề khi sử dụng px cho font-size",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2806,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 22,
+              "position": 38,
+              "step": {
+                "id": 22,
+                "title": "Ưu điểm khi sử dụng rem cho font-size",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2160,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 71,
+              "position": 39,
+              "step": {
+                "id": 71,
+                "title": "Một số hàm trong CSS",
+                "duration": 374,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2807,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 23,
+              "position": 40,
+              "step": {
+                "id": 23,
+                "title": "Thực hành dùng hàm var()",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2808,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 24,
+              "position": 41,
+              "step": {
+                "id": 24,
+                "title": "Thực hành dùng hàm rgba()",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2161,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 72,
+              "position": 42,
+              "step": {
+                "id": 72,
+                "title": "Pseudo classes trong CSS",
+                "duration": 223,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2810,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 26,
+              "position": 43,
+              "step": {
+                "id": 26,
+                "title": "Thực hành sử dụng :hover",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2162,
+              "track_id": 6,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 73,
+              "position": 44,
+              "step": {
+                "id": 73,
+                "title": "Pseudo elements trong CSS",
+                "duration": 375,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "course_id": 2,
+          "title": "Đệm, viền và khoảng lề",
+          "is_free": true,
+          "position": 4,
+          "track_steps": [
+            {
+              "id": 2150,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 61,
+              "position": 45,
+              "step": {
+                "id": 61,
+                "title": "Thuộc tính padding (đệm)",
+                "duration": 380,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2811,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 27,
+              "position": 46,
+              "step": {
+                "id": 27,
+                "title": "Thực hành sử dụng padding #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2812,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 28,
+              "position": 47,
+              "step": {
+                "id": 28,
+                "title": "Thực hành sử dụng padding #2",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2151,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 62,
+              "position": 48,
+              "step": {
+                "id": 62,
+                "title": "Thuộc tính border (đường viền)",
+                "duration": 366,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2813,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 29,
+              "position": 49,
+              "step": {
+                "id": 29,
+                "title": "Thực hành sử dụng border #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2152,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 63,
+              "position": 50,
+              "step": {
+                "id": 63,
+                "title": "Thuộc tính margin (khoảng cách lề)",
+                "duration": 331,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2816,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Challenge",
+              "step_id": 32,
+              "position": 51,
+              "step": {
+                "id": 32,
+                "title": "Thực hành sử dụng margin #1",
+                "duration": 0
+              }
+            },
+            {
+              "id": 2153,
+              "track_id": 42,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 64,
+              "position": 52,
+              "step": {
+                "id": 64,
+                "title": "Thuộc tính box-sizing",
+                "duration": 312,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "course_id": 2,
+          "title": "Thuộc tính tạo nền",
+          "is_free": true,
+          "position": 5,
+          "track_steps": [
+            {
+              "id": 2155,
+              "track_id": 43,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 66,
+              "position": 53,
+              "step": {
+                "id": 66,
+                "title": "Thuộc tính background-image",
+                "duration": 767,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2156,
+              "track_id": 43,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 67,
+              "position": 54,
+              "step": {
+                "id": 67,
+                "title": "Thuộc tính background-size với cover, contain",
+                "duration": 197,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2157,
+              "track_id": 43,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 68,
+              "position": 55,
+              "step": {
+                "id": 68,
+                "title": "Thuộc tính background-origin",
+                "duration": 178,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2158,
+              "track_id": 43,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 69,
+              "position": 56,
+              "step": {
+                "id": 69,
+                "title": "Thuộc tính background-position",
+                "duration": 255,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2159,
+              "track_id": 43,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 70,
+              "position": 57,
+              "step": {
+                "id": 70,
+                "title": "Cú pháp \"shorthand\" cho background",
+                "duration": 150,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "course_id": 2,
+          "title": "Thuộc tính vị trí",
+          "is_free": true,
+          "position": 6,
+          "track_steps": [
+            {
+              "id": 2163,
+              "track_id": 40,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 74,
+              "position": 58,
+              "step": {
+                "id": 74,
+                "title": "CSS position relative",
+                "duration": 184,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2164,
+              "track_id": 40,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 75,
+              "position": 59,
+              "step": {
+                "id": 75,
+                "title": "CSS position absolute",
+                "duration": 478,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2165,
+              "track_id": 40,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 76,
+              "position": 60,
+              "step": {
+                "id": 76,
+                "title": "CSS position fixed",
+                "duration": 209,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2166,
+              "track_id": 40,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 77,
+              "position": 61,
+              "step": {
+                "id": 77,
+                "title": "CSS position sticky",
+                "duration": 198,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "course_id": 2,
+          "title": "Một số tricks và tips",
+          "is_free": true,
+          "position": 7,
+          "track_steps": [
+            {
+              "id": 2249,
+              "track_id": 16,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 161,
+              "position": 62,
+              "step": {
+                "id": 161,
+                "title": "Các cách căn giữa trong CSS",
+                "duration": 1014,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2304,
+              "track_id": 16,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 218,
+              "position": 63,
+              "step": {
+                "id": 218,
+                "title": "Hiển thị ảnh dự phòng khi ảnh chính lỗi",
+                "duration": 386,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "course_id": 2,
+          "title": "Xây dựng web The band",
+          "is_free": true,
+          "position": 8,
+          "track_steps": [
+            {
+              "id": 2471,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 411,
+              "position": 64,
+              "step": {
+                "id": 411,
+                "title": "Giới thiệu dự án",
+                "duration": 173,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2472,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 412,
+              "position": 65,
+              "step": {
+                "id": 412,
+                "title": "Phân biệt & gọi tên các thành phần",
+                "duration": 975,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2473,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 413,
+              "position": 66,
+              "step": {
+                "id": 413,
+                "title": "Phân tích dự án",
+                "duration": 452,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2474,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 414,
+              "position": 67,
+              "step": {
+                "id": 414,
+                "title": "Tạo project base",
+                "duration": 616,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2475,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 415,
+              "position": 68,
+              "step": {
+                "id": 415,
+                "title": "Header CSS",
+                "duration": 2030,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2476,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 416,
+              "position": 69,
+              "step": {
+                "id": 416,
+                "title": "Navigation CSS",
+                "duration": 1726,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2477,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 417,
+              "position": 70,
+              "step": {
+                "id": 417,
+                "title": "Header search CSS",
+                "duration": 1211,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2478,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 418,
+              "position": 71,
+              "step": {
+                "id": 418,
+                "title": "Header fixed CSS",
+                "duration": 439,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2479,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 419,
+              "position": 72,
+              "step": {
+                "id": 419,
+                "title": "Slider CSS",
+                "duration": 1641,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2480,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 420,
+              "position": 73,
+              "step": {
+                "id": 420,
+                "title": "About section CSS",
+                "duration": 1067,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2481,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 421,
+              "position": 74,
+              "step": {
+                "id": 421,
+                "title": "Team section CSS",
+                "duration": 847,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2482,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 422,
+              "position": 75,
+              "step": {
+                "id": 422,
+                "title": "Tour tickets CSS",
+                "duration": 1167,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2483,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 423,
+              "position": 76,
+              "step": {
+                "id": 423,
+                "title": "Tour places CSS",
+                "duration": 1450,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2712,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 679,
+              "position": 77,
+              "step": {
+                "id": 679,
+                "title": "Buy tickets modal",
+                "duration": 2587,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2713,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 680,
+              "position": 78,
+              "step": {
+                "id": 680,
+                "title": "Buy tickets modal Javascript logic",
+                "duration": 1669,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2484,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 424,
+              "position": 79,
+              "step": {
+                "id": 424,
+                "title": "Row - columns layout",
+                "duration": 926,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2485,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 425,
+              "position": 80,
+              "step": {
+                "id": 425,
+                "title": "Contact form CSS",
+                "duration": 1454,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2486,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 426,
+              "position": 81,
+              "step": {
+                "id": 426,
+                "title": "Map, footer CSS",
+                "duration": 909,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2487,
+              "track_id": 45,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 427,
+              "position": 82,
+              "step": {
+                "id": 427,
+                "title": "Review",
+                "duration": 383,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "course_id": 2,
+          "title": "Responsive web The band",
+          "is_free": true,
+          "position": 9,
+          "track_steps": [
+            {
+              "id": 2488,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 428,
+              "position": 83,
+              "step": {
+                "id": 428,
+                "title": "Responsive là gì?",
+                "duration": 350,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2489,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 429,
+              "position": 84,
+              "step": {
+                "id": 429,
+                "title": "Media queries?",
+                "duration": 938,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2490,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 430,
+              "position": 85,
+              "step": {
+                "id": 430,
+                "title": "Tablet responsive",
+                "duration": 587,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2491,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 431,
+              "position": 86,
+              "step": {
+                "id": 431,
+                "title": "Mobile menu responsive",
+                "duration": 2139,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2492,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 432,
+              "position": 87,
+              "step": {
+                "id": 432,
+                "title": "Mobile menu fix bug",
+                "duration": 757,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2493,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 433,
+              "position": 88,
+              "step": {
+                "id": 433,
+                "title": "Mobile submenu fix bug",
+                "duration": 1218,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2494,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 434,
+              "position": 89,
+              "step": {
+                "id": 434,
+                "title": "Content responsive",
+                "duration": 883,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2495,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 435,
+              "position": 90,
+              "step": {
+                "id": 435,
+                "title": "Contact form responsive",
+                "duration": 822,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2496,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 436,
+              "position": 91,
+              "step": {
+                "id": 436,
+                "title": "Review, fix UX",
+                "duration": 1286,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2497,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 437,
+              "position": 92,
+              "step": {
+                "id": 437,
+                "title": "Run and fix bug on mobile",
+                "duration": 1021,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2498,
+              "track_id": 46,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 438,
+              "position": 93,
+              "step": {
+                "id": 438,
+                "title": "Fix bugs",
+                "duration": 1022,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "course_id": 2,
+          "title": "Dựng bố cục web với Flexbox",
+          "is_free": true,
+          "position": 10,
+          "track_steps": [
+            {
+              "id": 2167,
+              "track_id": 44,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 78,
+              "position": 94,
+              "step": {
+                "id": 78,
+                "title": "Giới thiệu Flexbox",
+                "duration": 357,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2344,
+              "track_id": 44,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 261,
+              "position": 95,
+              "step": {
+                "id": 261,
+                "title": "Thuộc tính CSS trong Flexbox",
+                "duration": 386,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2168,
+              "track_id": 44,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 79,
+              "position": 96,
+              "step": {
+                "id": 79,
+                "title": "Học Flexbox qua ví dụ",
+                "duration": 2104,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2470,
+              "track_id": 44,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 393,
+              "position": 97,
+              "step": {
+                "id": 393,
+                "title": "Để học Flexbox tốt hơn bạn nên xem video này",
+                "duration": 863,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "course_id": 2,
+          "title": "Quy ước đặt tên class BEM",
+          "is_free": true,
+          "position": 11,
+          "track_steps": [
+            {
+              "id": 2504,
+              "track_id": 48,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 444,
+              "position": 98,
+              "step": {
+                "id": 444,
+                "title": "BEM là gì?",
+                "duration": 890,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2505,
+              "track_id": 48,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 445,
+              "position": 99,
+              "step": {
+                "id": 445,
+                "title": "Thực hành BEM - Level 1",
+                "duration": 974,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2508,
+              "track_id": 48,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 449,
+              "position": 100,
+              "step": {
+                "id": 449,
+                "title": "Bài thực hành Level 2",
+                "duration": 2149,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2513,
+              "track_id": 48,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 454,
+              "position": 101,
+              "step": {
+                "id": 454,
+                "title": "Đặt tên class khi Block lồng nhau",
+                "duration": 643,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "course_id": 2,
+          "title": "Xây dựng web Shopee",
+          "is_free": true,
+          "position": 12,
+          "track_steps": [
+            {
+              "id": 2169,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 80,
+              "position": 102,
+              "step": {
+                "id": 80,
+                "title": "Dựng base source",
+                "duration": 174,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2170,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 81,
+              "position": 103,
+              "step": {
+                "id": 81,
+                "title": "Reset CSS",
+                "duration": 303,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2171,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 82,
+              "position": 104,
+              "step": {
+                "id": 82,
+                "title": "Dựng base CSS",
+                "duration": 614,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2172,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 83,
+              "position": 105,
+              "step": {
+                "id": 83,
+                "title": "Dựng khung web",
+                "duration": 672,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2173,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 84,
+              "position": 106,
+              "step": {
+                "id": 84,
+                "title": "Navbar CSS",
+                "duration": 1430,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2174,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 85,
+              "position": 107,
+              "step": {
+                "id": 85,
+                "title": "Nhúng Font-Icons",
+                "duration": 578,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2175,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 86,
+              "position": 108,
+              "step": {
+                "id": 86,
+                "title": "Icons CSS",
+                "duration": 501,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2176,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 87,
+              "position": 109,
+              "step": {
+                "id": 87,
+                "title": "Header QR code CSS",
+                "duration": 1987,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2177,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 88,
+              "position": 110,
+              "step": {
+                "id": 88,
+                "title": "Header notification CSS - Phần 1",
+                "duration": 2308,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2178,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 89,
+              "position": 111,
+              "step": {
+                "id": 89,
+                "title": "Header notification CSS - Phần 2",
+                "duration": 1145,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2179,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 91,
+              "position": 112,
+              "step": {
+                "id": 91,
+                "title": "Header notification CSS - Phần 3",
+                "duration": 796,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2180,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 92,
+              "position": 113,
+              "step": {
+                "id": 92,
+                "title": "Header notification CSS - Phần 4",
+                "duration": 269,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2181,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 93,
+              "position": 114,
+              "step": {
+                "id": 93,
+                "title": "Base modal",
+                "duration": 733,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2182,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 94,
+              "position": 115,
+              "step": {
+                "id": 94,
+                "title": "Dựng khung form đăng ký",
+                "duration": 1002,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2183,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 95,
+              "position": 116,
+              "step": {
+                "id": 95,
+                "title": "CSS form đăng ký",
+                "duration": 1619,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2184,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 96,
+              "position": 117,
+              "step": {
+                "id": 96,
+                "title": "CSS form đăng ký - Phần 2",
+                "duration": 1574,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2185,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 97,
+              "position": 118,
+              "step": {
+                "id": 97,
+                "title": "CSS form đăng nhập",
+                "duration": 960,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2186,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 98,
+              "position": 119,
+              "step": {
+                "id": 98,
+                "title": "Modal animation",
+                "duration": 375,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2187,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 99,
+              "position": 120,
+              "step": {
+                "id": 99,
+                "title": "Dựng khung phần tìm kiếm",
+                "duration": 1193,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2188,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 100,
+              "position": 121,
+              "step": {
+                "id": 100,
+                "title": "Header tìm kiếm CSS",
+                "duration": 2403,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2189,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 101,
+              "position": 122,
+              "step": {
+                "id": 101,
+                "title": "Lịch sử tìm kiếm CSS",
+                "duration": 1426,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2190,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 102,
+              "position": 123,
+              "step": {
+                "id": 102,
+                "title": "Header giỏ hàng trống CSS",
+                "duration": 1555,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2191,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 103,
+              "position": 124,
+              "step": {
+                "id": 103,
+                "title": "Header cart badge",
+                "duration": 646,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2192,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 104,
+              "position": 125,
+              "step": {
+                "id": 104,
+                "title": "Header cart - List products",
+                "duration": 2119,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2193,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 105,
+              "position": 126,
+              "step": {
+                "id": 105,
+                "title": "Header user info",
+                "duration": 1685,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2194,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 106,
+              "position": 127,
+              "step": {
+                "id": 106,
+                "title": "Header fix UI bugs",
+                "duration": 1000,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2195,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 107,
+              "position": 128,
+              "step": {
+                "id": 107,
+                "title": "Danh mục: Dựng khung",
+                "duration": 893,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2196,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 108,
+              "position": 129,
+              "step": {
+                "id": 108,
+                "title": "Danh mục: Base responsive",
+                "duration": 653,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2197,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 109,
+              "position": 130,
+              "step": {
+                "id": 109,
+                "title": "Danh mục CSS",
+                "duration": 1309,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2198,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 110,
+              "position": 131,
+              "step": {
+                "id": 110,
+                "title": "Dựng khung: Sắp xếp sản phẩm",
+                "duration": 663,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2199,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 111,
+              "position": 132,
+              "step": {
+                "id": 111,
+                "title": "CSS: Sắp xếp sản phẩm",
+                "duration": 1704,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2200,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 112,
+              "position": 133,
+              "step": {
+                "id": 112,
+                "title": "Dựng khung sản phẩm",
+                "duration": 1092,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2201,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 113,
+              "position": 134,
+              "step": {
+                "id": 113,
+                "title": "Sản phẩm CSS",
+                "duration": 1526,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2202,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 114,
+              "position": 135,
+              "step": {
+                "id": 114,
+                "title": "Sản phẩm CSS - Phần 2",
+                "duration": 1122,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2203,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 115,
+              "position": 136,
+              "step": {
+                "id": 115,
+                "title": "Sản phẩm CSS - Phần 3",
+                "duration": 820,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2204,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 116,
+              "position": 137,
+              "step": {
+                "id": 116,
+                "title": "Sản phẩm: CSS nhãn yêu thích",
+                "duration": 1109,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2205,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 117,
+              "position": 138,
+              "step": {
+                "id": 117,
+                "title": "Sản phẩm: CSS nhãn giảm giá",
+                "duration": 1075,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2206,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 118,
+              "position": 139,
+              "step": {
+                "id": 118,
+                "title": "Hoàn thiện phần sản phẩm",
+                "duration": 1010,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2207,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 119,
+              "position": 140,
+              "step": {
+                "id": 119,
+                "title": "Fix UI bugs - Phần 2",
+                "duration": 2110,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2208,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 120,
+              "position": 141,
+              "step": {
+                "id": 120,
+                "title": "Pagination UI",
+                "duration": 885,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2209,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 121,
+              "position": 142,
+              "step": {
+                "id": 121,
+                "title": "Dựng khung Footer",
+                "duration": 967,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2210,
+              "track_id": 7,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 122,
+              "position": 143,
+              "step": {
+                "id": 122,
+                "title": "Footer CSS",
+                "duration": 1287,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "course_id": 2,
+          "title": "Tự bay với đôi cánh của bạn",
+          "is_free": true,
+          "position": 13,
+          "track_steps": [
+            {
+              "id": 2516,
+              "track_id": 49,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 457,
+              "position": 144,
+              "step": {
+                "id": 457,
+                "title": "Giới thiệu chương",
+                "duration": 173,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "course_id": 2,
+          "title": "Ứng tuyển xin việc làm",
+          "is_free": false,
+          "position": 14,
+          "track_steps": [
+            {
+              "id": 2828,
+              "track_id": 118,
+              "step_type": "App\\Common\\Models\\Lesson",
+              "step_id": 687,
+              "position": 145,
+              "step": {
+                "id": 687,
+                "title": "Hướng dẫn ứng tuyển xin việc làm",
+                "duration": 780
+              }
+            }
+          ]
         }
       ]
     },
@@ -836,6 +3106,801 @@
           "course_id": 13,
           "content": "Đủ hành trang tự tin apply đi xin việc"
         }
+      ],
+      "tracks": [
+        {
+          "id": 91,
+          "course_id": 13,
+          "title": "Giới thiệu",
+          "is_free": true,
+          "position": 1,
+          "track_steps": [
+            {
+              "id": 2723,
+              "track_id": 91,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 690,
+              "position": 1,
+              "step": {
+                "id": 690,
+                "title": "ReactJS là gì? Tại sao nên học ReactJS?",
+                "duration": 641,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2729,
+              "track_id": 91,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 709,
+              "position": 2,
+              "step": {
+                "id": 709,
+                "title": "SPA/MPA là gì?",
+                "duration": 1340,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "course_id": 13,
+          "title": "Ôn lại ES6+",
+          "is_free": true,
+          "position": 2,
+          "track_steps": [
+            {
+              "id": 2724,
+              "track_id": 92,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 615,
+              "position": 3,
+              "step": {
+                "id": 615,
+                "title": "Arrow function",
+                "duration": 517,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2726,
+              "track_id": 92,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 617,
+              "position": 4,
+              "step": {
+                "id": 617,
+                "title": "Enhanced object literals",
+                "duration": 315,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2728,
+              "track_id": 92,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 619,
+              "position": 5,
+              "step": {
+                "id": 619,
+                "title": "Destructuring, Rest",
+                "duration": 800,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2727,
+              "track_id": 92,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 618,
+              "position": 6,
+              "step": {
+                "id": 618,
+                "title": "Spread operator",
+                "duration": 837,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2725,
+              "track_id": 92,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 616,
+              "position": 7,
+              "step": {
+                "id": 616,
+                "title": "JS modules",
+                "duration": 890,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "course_id": 13,
+          "title": "React, React-DOM",
+          "is_free": true,
+          "position": 3,
+          "track_steps": [
+            {
+              "id": 2730,
+              "track_id": 93,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 710,
+              "position": 8,
+              "step": {
+                "id": 710,
+                "title": "document.createElement() để làm gì?",
+                "duration": 602,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2731,
+              "track_id": 93,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 711,
+              "position": 9,
+              "step": {
+                "id": 711,
+                "title": "Cách thêm React vào Website",
+                "duration": 891,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2732,
+              "track_id": 93,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 712,
+              "position": 10,
+              "step": {
+                "id": 712,
+                "title": "React.createElement() nữa là sao?",
+                "duration": 871,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2733,
+              "track_id": 93,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 713,
+              "position": 11,
+              "step": {
+                "id": 713,
+                "title": "React-DOM là gì? Tại sao phải sử dụng?",
+                "duration": 669,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 94,
+          "course_id": 13,
+          "title": "JSX, Components, Props",
+          "is_free": true,
+          "position": 4,
+          "track_steps": [
+            {
+              "id": 2734,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 714,
+              "position": 12,
+              "step": {
+                "id": 714,
+                "title": "JSX là gì? Tại sao cần JSX?",
+                "duration": 959,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2735,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 715,
+              "position": 13,
+              "step": {
+                "id": 715,
+                "title": "JSX render Arrays | JSX FQA",
+                "duration": 816,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2736,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 716,
+              "position": 14,
+              "step": {
+                "id": 716,
+                "title": "React element types",
+                "duration": 853,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2737,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 717,
+              "position": 15,
+              "step": {
+                "id": 717,
+                "title": "Props là gì? Dùng props khi nào?",
+                "duration": 1542,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2738,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 718,
+              "position": 16,
+              "step": {
+                "id": 718,
+                "title": "DOM events?",
+                "duration": 838,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2739,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 719,
+              "position": 17,
+              "step": {
+                "id": 719,
+                "title": "Quy ước đặt tên components?",
+                "duration": 1567,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2740,
+              "track_id": 94,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 720,
+              "position": 18,
+              "step": {
+                "id": 720,
+                "title": "Children props? Render props?",
+                "duration": 1325,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "course_id": 13,
+          "title": "Create React App",
+          "is_free": true,
+          "position": 5,
+          "track_steps": [
+            {
+              "id": 2741,
+              "track_id": 95,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 721,
+              "position": 19,
+              "step": {
+                "id": 721,
+                "title": "NodeJS là gì? Tại sao phải sử dụng NodeJS?",
+                "duration": 699,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2742,
+              "track_id": 95,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 722,
+              "position": 20,
+              "step": {
+                "id": 722,
+                "title": "Tạo dự án với React + Webpack",
+                "duration": 1875,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2743,
+              "track_id": 95,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 723,
+              "position": 21,
+              "step": {
+                "id": 723,
+                "title": "Create React App",
+                "duration": 853,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2744,
+              "track_id": 95,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 724,
+              "position": 22,
+              "step": {
+                "id": 724,
+                "title": "NPM, NPX và YARN là gì?",
+                "duration": 1891,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2745,
+              "track_id": 95,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 725,
+              "position": 23,
+              "step": {
+                "id": 725,
+                "title": "CRA Folder Structure",
+                "duration": 757,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "course_id": 13,
+          "title": "Hooks",
+          "is_free": true,
+          "position": 6,
+          "track_steps": [
+            {
+              "id": 2746,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 726,
+              "position": 24,
+              "step": {
+                "id": 726,
+                "title": "Hooks là gì?",
+                "duration": 751,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2747,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 727,
+              "position": 25,
+              "step": {
+                "id": 727,
+                "title": "useState hook",
+                "duration": 1191,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2748,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 728,
+              "position": 26,
+              "step": {
+                "id": 728,
+                "title": "Two-way binding trong React?",
+                "duration": 1687,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2749,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 729,
+              "position": 27,
+              "step": {
+                "id": 729,
+                "title": "Todolist with useState",
+                "duration": 908,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2750,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 730,
+              "position": 28,
+              "step": {
+                "id": 730,
+                "title": "Mounted & Unmounted?",
+                "duration": 337,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2751,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 731,
+              "position": 29,
+              "step": {
+                "id": 731,
+                "title": "useEffect hook",
+                "duration": 1490,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2752,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 732,
+              "position": 30,
+              "step": {
+                "id": 732,
+                "title": "useEffect with dependencies",
+                "duration": 783,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2753,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 734,
+              "position": 31,
+              "step": {
+                "id": 734,
+                "title": "useEffect with DOM events",
+                "duration": 999,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2754,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 735,
+              "position": 32,
+              "step": {
+                "id": 735,
+                "title": "useEffect with timer functions",
+                "duration": 543,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2755,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 736,
+              "position": 33,
+              "step": {
+                "id": 736,
+                "title": "useEffect with preview avatar",
+                "duration": 751,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2756,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 737,
+              "position": 34,
+              "step": {
+                "id": 737,
+                "title": "useEffect with fake Chat App",
+                "duration": 1126,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2757,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 738,
+              "position": 35,
+              "step": {
+                "id": 738,
+                "title": "useLayoutEffect hook",
+                "duration": 525,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2758,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 739,
+              "position": 36,
+              "step": {
+                "id": 739,
+                "title": "useRef hook",
+                "duration": 1055,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2759,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 740,
+              "position": 37,
+              "step": {
+                "id": 740,
+                "title": "React.memo HOC",
+                "duration": 660,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2761,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 742,
+              "position": 38,
+              "step": {
+                "id": 742,
+                "title": "useCallback hook",
+                "duration": 612,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2760,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 741,
+              "position": 39,
+              "step": {
+                "id": 741,
+                "title": "useMemo hook",
+                "duration": 666,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2762,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 743,
+              "position": 40,
+              "step": {
+                "id": 743,
+                "title": "useReducer hook",
+                "duration": 958,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2763,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 744,
+              "position": 41,
+              "step": {
+                "id": 744,
+                "title": "Todo App with useReducer hook",
+                "duration": 1295,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2764,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 745,
+              "position": 42,
+              "step": {
+                "id": 745,
+                "title": "useReducer recap",
+                "duration": 1098,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2765,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 746,
+              "position": 43,
+              "step": {
+                "id": 746,
+                "title": "useContext hook",
+                "duration": 1132,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2766,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 747,
+              "position": 44,
+              "step": {
+                "id": 747,
+                "title": "Context + useReducer",
+                "duration": 1734,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2767,
+              "track_id": 96,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 748,
+              "position": 45,
+              "step": {
+                "id": 748,
+                "title": "useImperativeHandle hook",
+                "duration": 1005,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 97,
+          "course_id": 13,
+          "title": "CSS, SCSS và CSS modules",
+          "is_free": true,
+          "position": 7,
+          "track_steps": [
+            {
+              "id": 2769,
+              "track_id": 97,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 750,
+              "position": 46,
+              "step": {
+                "id": 750,
+                "title": "Sử dụng CSS",
+                "duration": 737,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2770,
+              "track_id": 97,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 751,
+              "position": 47,
+              "step": {
+                "id": 751,
+                "title": "CSS module",
+                "duration": 891,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2771,
+              "track_id": 97,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 752,
+              "position": 48,
+              "step": {
+                "id": 752,
+                "title": "Thư viện clsx và classnames",
+                "duration": 732,
+                "image_url": "",
+                "video_url": null
+              }
+            },
+            {
+              "id": 2772,
+              "track_id": 97,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 753,
+              "position": 49,
+              "step": {
+                "id": 753,
+                "title": "Install SASS để dùng SCSS?",
+                "duration": 323,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "course_id": 13,
+          "title": "React Router V6",
+          "is_free": true,
+          "position": 8,
+          "track_steps": [
+            {
+              "id": 2773,
+              "track_id": 98,
+              "step_type": "App\\Common\\Models\\Video",
+              "step_id": 754,
+              "position": 50,
+              "step": {
+                "id": 754,
+                "title": "Cài đặt và tạo router",
+                "duration": 907,
+                "image_url": "",
+                "video_url": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "course_id": 13,
+          "title": "Ứng tuyển xin việc làm",
+          "is_free": false,
+          "position": 9,
+          "track_steps": [
+            {
+              "id": 2825,
+              "track_id": 115,
+              "step_type": "App\\Common\\Models\\Lesson",
+              "step_id": 687,
+              "position": 51,
+              "step": {
+                "id": 687,
+                "title": "Hướng dẫn ứng tuyển xin việc làm",
+                "duration": 780
+              }
+            }
+          ]
+        }
       ]
     },
     {
@@ -866,14 +3931,6 @@
       "is_pre_order": false,
       "is_published": true,
       "related_courses": []
-    },
-    {
-      "title": "swdefrghjk",
-      "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé.",
-      "image_url": "http://res.cloudinary.com/djsbi0bma/image/upload/v1649033440/bmnuilftfynrzinjo5ni.jpg",
-      "isFontEnd": "true",
-      "isBackEnd": "true",
-      "id": 14
     }
   ]
 }
