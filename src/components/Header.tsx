@@ -40,11 +40,15 @@ const Header = (props: Props) => {
         if (localStorage.getItem("user")) {
             const { User } = JSON.parse(localStorage.getItem("user"));
             if (User.is_registered.length == 0) {
-                setCourseRegistered("Bạn chưa đăng kí khóa học nào")
+                setCourseRegistered(["Bạn chưa đăng kí khóa học nào"])
             }
             else {
                 setCourseRegistered(User.is_registered)
             }
+        }
+        else{
+            setCourseRegistered(["Bạn chưa đăng kí khóa học nào"])
+
         }
 
     }, [])

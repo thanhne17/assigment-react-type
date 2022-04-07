@@ -1,7 +1,7 @@
 import instance from "./instance";
 import {routeType} from "../type/route"
 
-export const getAllRoute =async () => {
+export const getAllRoute = async () => {
     const url = "/data/";
     return instance.get(url)
 }
