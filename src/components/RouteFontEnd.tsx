@@ -32,7 +32,7 @@ const RouteFontEnd = (props: Props) => {
                 return Element.isFontEnd
             }).map((data,index)=>{
                 return (
-                        <NavLink key={index} to={`/courses/${data.id}`} className="w-[23%] mx-[10px]">
+                        <NavLink key={index} to={`/courses/${data._id}`} className="w-[23%] mx-[10px]">
                             <img className=' rounded-xl' src={data.image_url} alt="" />
                             <h1 className='font-semibold'>{data.title}</h1>
                             <p className='text-[#333333]'>

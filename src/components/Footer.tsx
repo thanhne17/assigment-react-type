@@ -59,7 +59,7 @@ const Footer = (props: Props) => {
         </div>
       </div>
 
-      <div className="w-[80%] mx-auto py-[10px] border-t flex justify-between">
+      <div className="w-[80%] mx-auto py-[10px] flex justify-between">
         <h1 className='text-white'>© 2022 F8 - Nền tảng học lập trình số 1 Việt Nam</h1>
         <div className="">
           <i className="text-2xl text-[#0c88ef] fa-brands fa-facebook-square"></i>

@@ -5,16 +5,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-table, tr , td {
-  border:  1px solid;
-  border-collapse: collapse;
-  padding: 10px;
-}
-
-table{
-  margin-top: 55px;
-}
-
 .flex > li {
   margin: 0 10px;
   

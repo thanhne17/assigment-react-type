@@ -54,14 +54,7 @@ const Header = (props: Props) => {
     }, [])
 
     const isAuthenticate = () => {
-        if (btn == 0) {
-            return (
-                <NavLink className="text-white px-[10px] py-[5px] bg-[orange] rounded" to="/signin">
-                    Đăng nhập
-                </NavLink>
-            )
-        }
-        else {
+        if (btn == 1  && localStorage.getItem("user")) {
             return (
                 <span className="relative">
                     <img className="nut_dropdown w-[38px] inline rounded-3xl" src="https://avatar-redirect.appspot.com/google/109787174074203033336?size=400" alt="" />
@@ -76,6 +69,13 @@ const Header = (props: Props) => {
                         </div>
                     </div>
                 </span>
+            )
+        }
+        else {
+            return (
+                <NavLink className="text-white px-[10px] py-[5px] bg-[orange] rounded" to="/signin">
+                    Đăng nhập
+                </NavLink>
             )
         }
     }

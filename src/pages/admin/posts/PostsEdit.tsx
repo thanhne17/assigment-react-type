@@ -42,9 +42,7 @@ const PostsEdit = (props: Props) => {
             route.image_url = imgUploaded;
             console.log(imgUploaded);
              
-        }
-            console.log(route);
-            
+        }            
             props.onUpdate(id,route);
             navigate("/admin/posts")
 

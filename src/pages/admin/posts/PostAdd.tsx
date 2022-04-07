@@ -18,7 +18,6 @@ const PostAdd = (props: PropsPostAdd) => {
   const navigate = useNavigate();
 
   const onSubmit: SubmitHandler<TypeInput> = (data) => {
-    console.log(data);
     const file = data.image_url[0]
     const formData = new FormData();
     formData.append("file", file);

@@ -1,5 +1,8 @@
 export type user = {
     name?: String,
-    email:String
-    password: String
+    email: String,
+    createdAt: String,
+    updatedAt: String,
+    image: String,
+    is_registered: []
 }
