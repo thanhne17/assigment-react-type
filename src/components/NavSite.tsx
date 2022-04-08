@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -10,10 +10,10 @@ const NavSite = (props: Props) => {
             <i className="text-lg fa-solid fa-plus"></i>
         </div>
 
-        <NavLink to="/" className="my-[10px]  w-[72px] text-[#000] text-center rounded-xl hover:bg-[#ccc]">
+        <Link to="/" className="my-[10px]  w-[72px] text-[#000] text-center rounded-xl hover:bg-[#ccc]">
             <i className="text-lg fa-solid fa-house"></i>
             <p className='text-xs'>Home</p>
-        </NavLink>
+        </Link>
 
         <NavLink to="/" className="my-[10px]  w-[72px] text-[#000] text-center rounded-xl hover:bg-[#ccc]">
             <i className="text-lg fa-solid fa-road"></i>

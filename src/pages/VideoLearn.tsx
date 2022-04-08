@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink, useParams } from 'react-router-dom'
+import { NavLink, useParams, Link } from 'react-router-dom'
 import { getOneRoute } from '../api/route';
 
 
@@ -16,15 +16,15 @@ const VideoLearn = (props: Props) => {
         }
         getLearn()
     }, [])
-    console.log(learn);
     useEffect(() => {
         const showIcon = () => { }
         const show = (callback) => {
             const nutDrop = document.querySelectorAll(".nut-drop");
             const noiDungDrop = document.querySelectorAll(".noidung-drop")
+            const nutDropDown = document.querySelectorAll(".nut-dropDown")
 
             for (let i = 0; i < nutDrop.length; i++) {
-                nutDrop[i].onclick = () => {
+                nutDropDown[i].onclick = () => {
                     const titleHeight = nutDrop[i].clientHeight - noiDungDrop[i].clientHeight
                     const open = nutDrop[i].clientHeight < 60;
 
@@ -49,10 +49,10 @@ const VideoLearn = (props: Props) => {
     return (
         <div className=''>
             <header className='bg-[#29303b] p-[15px] sticky top-0'>
-                <NavLink className='' to="/">
+                <Link className='' to="/">
                     <img className='w-[30px] inline mr-[10px]' src="https://static.fullstack.edu.vn/static/media/f8-icon.7ad2b161d5e80c87e516.png" alt="" />
                     <span className='text-[#fff] font-semibold'>{learn?.title}</span>
-                </NavLink>
+                </Link>
             </header>
 
             <main className='flex justify-between'>
@@ -73,13 +73,13 @@ const VideoLearn = (props: Props) => {
                         {learn?.tracks?.map((Element, index) => {
                             return (
                                 <div className='nut-drop my-[10px] bg-white select-none' key={index}>
-                                    <div className="flex justify-between items-center border px-[30px] py-[10px] bg-[#f5f5f5] flex justify-between">
-                                        <h1 className="font-semibold text-base m-0"> {index + 1}. {Element?.title} </h1><i className="fa-solid fa-angle-down"></i>
+                                    <div className="nut-dropDown flex justify-between items-center border px-[30px] py-[10px] bg-[#f5f5f5] flex justify-between">
+                                        <h1 className="font-semibold text-base m-0 hover:cursor-pointer"> {index + 1}. {Element?.title} </h1><i className="fa-solid fa-angle-down"></i>
                                     </div>
                                     <div className="noidung-drop">
                                         {Element.track_steps?.map((step, index) => {
                                             return (
-                                                <h2 className='py-[10px] px-[30px]' key={index}>{index + 1}. {step?.step?.title}</h2>
+                                                <h2 className='py-[10px] px-[30px]  hover:cursor-pointer' key={index}>{index + 1}. {step?.step?.title}</h2>
                                             )
                                         })}
                                     </div>

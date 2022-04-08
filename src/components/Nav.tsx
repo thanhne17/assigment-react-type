@@ -7,7 +7,7 @@ import {
     UserOutlined,
   } from '@ant-design/icons';
 import { Layout, Menu, Breadcrumb } from 'antd';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
 
@@ -32,12 +32,12 @@ class Nav extends Component<Props, State> {
 
     return (
         <Sider collapsible collapsed={collapsed} onCollapse={this.onCollapse}>
-        <NavLink className='w-[150px] hover:origin-center' to="/">
+        <Link className='w-[150px] hover:origin-center' to="/">
                 <div className="header-with-search__logo-wrapper">
                   <img className='w-[85px] inline mr-[10px]' src="https://static1.squarespace.com/static/5b60a7583e2d0997aa82bb05/t/5d0f643aa71ad0000103a8d5/1643900387317/" alt="" />
 
                 </div>
-            </NavLink>
+            </Link>
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
           <Menu.Item key="1" icon={<PieChartOutlined />}>
             <NavLink to="/admin">Dashboad</NavLink>

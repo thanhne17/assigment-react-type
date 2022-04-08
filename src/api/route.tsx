@@ -13,12 +13,12 @@ export const getOneRoute = async (id:number) => {
 }
 
 export const addRoute =async (params:routeType) => {
-    const url = "/data";
-    return instance.post(url, params)
+    const url = "http://localhost:3005/api/course";
+    return axios.post(url, params)
 }
 
 export const deleteRoute =async (id: number) => {
-    const url = "http://localhost:3005/api/"+id;
+    const url = "http://localhost:3005/api/course/"+id;
     return axios.delete(url) 
 }
 

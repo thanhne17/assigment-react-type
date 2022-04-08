@@ -3931,6 +3931,30 @@
       "is_pre_order": false,
       "is_published": true,
       "related_courses": []
+    },
+    {
+      "title": "sqwdefrgthtjuy",
+      "description": "ẻthrytuykiuloi",
+      "image_url": "http://res.cloudinary.com/djsbi0bma/image/upload/v1649434291/fi3mdawh2bwpd2ybxz13.jpg",
+      "isFontEnd": "true",
+      "isBackEnd": "true",
+      "id": 14
+    },
+    {
+      "title": "ửghng",
+      "description": "egrhtnnsf",
+      "image_url": "http://res.cloudinary.com/djsbi0bma/image/upload/v1649434330/zhnfh0ax75nnw48dhkt7.png",
+      "isFontEnd": "true",
+      "isBackEnd": false,
+      "id": 15
+    },
+    {
+      "title": "ửetrhyteh",
+      "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé.",
+      "image_url": "http://res.cloudinary.com/djsbi0bma/image/upload/v1649434360/wtiiy8j0gxusjwivtwzg.png",
+      "isFontEnd": false,
+      "isBackEnd": "true",
+      "id": 16
     }
   ]
 }

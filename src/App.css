@@ -21,7 +21,7 @@ i {
 .noidung_dropdown, .noidung_dropdown2{
   display: none;
   box-shadow: 0 0 20px rgba(132, 132, 132, 0.558);
-  animation: dropdown .5s;
+  animation: dropdown .3s;
 }
 
 .show {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Navigate, NavLink } from 'react-router-dom'
+import { Navigate, NavLink, Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -38,12 +38,12 @@ const Header = (props: Props) => {
         showDropDown();
 
         if (localStorage.getItem("user")) {
-            const { User } = JSON.parse(localStorage.getItem("user"));
-            if (User.is_registered.length == 0) {
+            const { data } = JSON.parse(localStorage.getItem("user"));
+            if (data.is_registered.length == 0) {
                 setCourseRegistered(["Bạn chưa đăng kí khóa học nào"])
             }
             else {
-                setCourseRegistered(User.is_registered)
+                setCourseRegistered(data.is_registered)
             }
         }
         else{
@@ -57,11 +57,12 @@ const Header = (props: Props) => {
         if (btn == 1  && localStorage.getItem("user")) {
             return (
                 <span className="relative">
-                    <img className="nut_dropdown w-[38px] inline rounded-3xl" src="https://avatar-redirect.appspot.com/google/109787174074203033336?size=400" alt="" />
+                    <img title='Tài khoản' className="nut_dropdown cursor-pointer w-[38px] inline rounded-3xl" src="https://avatar-redirect.appspot.com/google/109787174074203033336?size=400" alt="" />
                     <div className="sign">
                         <div className="noidung_dropdown w-[200px] absolute top-[90%] right-0 translate-y-[20px] rounded p-[10px] bg-white">
                             <NavLink className="block duration-100 hover:text-[orange] pb-[10px] text-black" to="/personal">Tài khoản của tôi</NavLink>
-                            <NavLink className="block duration-100 hover:text-[orange] py-[10px] border-t text-black" to="/admin">Admin</NavLink>
+                            
+                            {JSON.parse(localStorage.getItem("user")).data?.role == 1 ? <NavLink className="block duration-100 hover:text-[orange] py-[10px] border-t text-black" to="/admin">Admin</NavLink> : ""}
                             <p onClick={() => {
                                 localStorage.removeItem("user")
                                 setBtn(0)
@@ -82,10 +83,10 @@ const Header = (props: Props) => {
     return (
         <header className='p-[10px] border-b sticky top-[0] z-[999] bg-[#fff]' id='header'>
             <div className="flex justify-between items-center w-[95%] mx-auto">
-                <NavLink className='' to="/">
+                <Link className='' to="/">
                     <img className='w-[38px] inline mr-[10px]' src="https://static.fullstack.edu.vn/static/media/f8-icon.7ad2b161d5e80c87e516.png" alt="" />
                     <span className='text-[#000] font-semibold'>Học lập trình để đi làm</span>
-                </NavLink>
+                </Link>
 
                 <div className="search w-[400px] h-[40px] relative">
                     <input className='border rounded-3xl w-[100%] h-[100%] indent-[30px] hover:border-[#333333] hover:border-[2px] duration-300' placeholder='Tìm kiếm khóa học, bài viết...' type="text" name="" id="" />
@@ -102,7 +103,7 @@ const Header = (props: Props) => {
                             })}
                         </div>
                     </div>
-                    <i className="fa-solid fa-bell text-[#bbb] mx-[30px] text-lg hover:text-[#000] hover:cursor-pointer"></i>
+                    <i title='Thông báo' className="fa-solid fa-bell text-[#bbb] mx-[30px] text-lg hover:text-[#000] hover:cursor-pointer"></i>
                     {isAuthenticate()}
                 </div>
             </div>

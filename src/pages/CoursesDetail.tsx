@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink, Outlet, useParams } from 'react-router-dom';
+import { NavLink, Outlet, useNavigate, useParams } from 'react-router-dom';
 import { getOneRoute } from '../api/route';
+import { getOneUser, updateUser } from '../api/user';
+import { authenticated } from '../utils/localStorage';
 
 type Props = {}
 
@@ -16,19 +18,20 @@ const CoursesDetail = (props: Props) => {
     getCoure()
 
   }, [])
-  console.log(coure);
-  
+
 
   useEffect(() => {
     const showIcon = () => { }
     const show = (callback) => {
       const nutDrop = document.querySelectorAll(".nut-drop");
+      const nutDropDown = document.querySelectorAll(".nut-dropdown");
       const noiDungDrop = document.querySelectorAll(".noidung-drop")
 
       for (let i = 0; i < nutDrop.length; i++) {
-        nutDrop[i].onclick = () => {
+        nutDropDown[i].onclick = () => {
           const titleHeight = nutDrop[i].clientHeight - noiDungDrop[i].clientHeight
           const open = nutDrop[i].clientHeight < 60;
+
 
           if (!open) {
             nutDrop[i].style.height = `${titleHeight}px`
@@ -49,9 +52,10 @@ const CoursesDetail = (props: Props) => {
     show(showIcon)
   })
   const showBtnRegis = () => {
+    const navigate = useNavigate()
     if (localStorage.getItem("user")) {
-      const { User } = JSON.parse(localStorage.getItem("user"));
-      if (User.is_registered.includes(coure?.slug)) {
+      const { data } = JSON.parse(localStorage.getItem("user"));
+      if (data.is_registered.includes(coure?.slug)) {
         return (
           <div className="mt-[20px]">
             <NavLink to="learn" className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white bg-[orange] rounded-3xl'>Tiếp tục học</NavLink>
@@ -61,14 +65,43 @@ const CoursesDetail = (props: Props) => {
       }
       else {
         return (
-          <button className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>Đăng kí</button>
+          <div className="">
+            <button onClick={() => {
+              const id = JSON.parse(localStorage.getItem("user")).data._id;
+              const getUserInfo = async (id: String) => {
+                await getOneUser(id)
+                  .then((res) => {
+                    const abc = coure?.slug;
+                    res.data.is_registered = [...res.data.is_registered, abc];
+                    updateUser(id, res.data)
+                      .then((result) => {
+                        result.statusText = undefined;
+                        result.request = undefined;
+                        result.config = undefined;
+                        result.headers = undefined;
+                        
+                        console.log(result);
+                        localStorage.removeItem("user");
+                        authenticated(result, ()=>{
+                          navigate("learn")
+                        })
+                      })
+                  })
+
+              }
+              getUserInfo(id)
+
+            }} className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>đăng kí</button>
+          </div>
         )
       }
 
     }
     else {
       return (
-        <button className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>Đăng kí</button>
+        <div className="mt-[20px]">
+          <NavLink to="learn" className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>Đăng kí</NavLink>
+        </div>
       )
     }
   }
@@ -106,7 +139,7 @@ const CoursesDetail = (props: Props) => {
             {coure?.tracks?.map((Element, index) => {
               return (
                 <div className='nut-drop my-[10px] bg-white select-none' key={index}>
-                  <div className="flex justify-between items-center border rounded-md px-[30px] py-[10px] bg-[#f5f5f5]">
+                  <div className="nut-dropdown flex justify-between items-center border rounded-md px-[30px] py-[10px] bg-[#f5f5f5]">
                     <h1 className="font-semibold text-lg m-0"><i className="fa-solid fa-plus"></i> {index + 1}. {Element?.title}</h1>
                     <span>{Element?.track_steps?.length} bài học</span>
                   </div>

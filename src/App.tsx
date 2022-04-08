@@ -39,7 +39,9 @@ function App() {
 
   const onHandlerRemove = (id: number) => {
     deleteRoute(id);
-    setPosts(posts.filter(item => item.id !== id))
+    setPosts(posts.filter(item => item._id !== id))
+    console.log(posts);
+    
   }
 
   const onHandlerUpdate = async (id: number, post: postType) => {

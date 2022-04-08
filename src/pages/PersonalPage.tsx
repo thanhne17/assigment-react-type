@@ -9,7 +9,9 @@ type typeInput = {
   email: String,
   createdAt: String,
   updatedAt: String,
-  image: String
+  is_registered: [],
+  image: String,
+  abc: String
 }
 
 const PersonalPage = (props: Props) => {
@@ -18,7 +20,7 @@ const PersonalPage = (props: Props) => {
     document.title = "Cài đặt tài khoản"
     const getUser = async () => {
       if (localStorage.getItem("user")) {
-        const id = JSON.parse(localStorage.getItem("user")).User._id
+        const id = JSON.parse(localStorage.getItem("user")).data._id
         const { data } = await getOneUser(id);
         setUserInfo(data)
         reset(data)
@@ -30,9 +32,8 @@ const PersonalPage = (props: Props) => {
 
   const { register, handleSubmit, formState: { errors }, reset } = useForm<typeInput>();
   const onSubmit: SubmitHandler<typeInput> = async (data) => {
-    console.log(data);
     if (localStorage.getItem("user")) {
-      const id = JSON.parse(localStorage.getItem("user")).User._id;
+      const id = JSON.parse(localStorage.getItem("user")).data._id;
       await updateUser(id, data)
     }
 
@@ -68,22 +69,18 @@ const PersonalPage = (props: Props) => {
             <p>Email này sẽ giúp bạn đăng nhập vào hệ thống.</p>
           </div>
 
-          <div className="mt-[50px]">
+          <div className='mt-[50px] '>
             <p className='font-semibold'>Ảnh đại diện của bạn.</p>
-            <img className='w-[100px] rounded-full' src={userInfo.image} alt="" />
-          </div>
-
-          <div>
-            <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
+            <div className="flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
               <div className="space-y-1 text-center">
-                <svg className="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
-                  <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
+                <div className="">
+                  <img className='w-[100px] rounded-full' src={userInfo.image} alt="" />
+                </div>
                 <div className="flex text-sm text-gray-600">
                   <label htmlFor="file-upload" className="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                    {/* <span>Upload a file</span> */}
+                    <span>Upload a file</span>
                   </label>
-                    <input type="file" {...register("image")} />
+                  <input id='file-upload' className='sr-only' type="file" {...register("image")} />
                 </div>
               </div>
             </div>
