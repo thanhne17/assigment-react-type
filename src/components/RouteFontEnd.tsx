@@ -22,7 +22,7 @@ const RouteFontEnd = (props: Props) => {
             <span className='mb-[20px]'>
                 <h1 className='text-2xl font-black inline'>Lộ trình học Front-end</h1> <span className='bg-[#1473e6] p-[5px] rounded text-white'>Mới</span>
             </span>
-            <NavLink className="" to="/courses">
+            <NavLink className="" to="/route">
                 <h1 className="duration-300 hover:translate-x-1 text-[orange] hover:text-[#f05123] hover:underline font-semibold">Xem chi tiết <i className="fa-solid fa-chevron-right"></i></h1>
             </NavLink>
         </div>
@@ -32,7 +32,7 @@ const RouteFontEnd = (props: Props) => {
                 return Element.isFontEnd
             }).map((data,index)=>{
                 return (
-                        <NavLink key={index} to={`/courses/${data._id}`} className="w-[23%] mx-[10px]">
+                        <NavLink key={index} to={`/courses/${data.slug}`} className="w-[23%] mx-[10px]">
                             <img className=' rounded-xl' src={data.image_url} alt="" />
                             <h1 className='font-semibold'>{data.title}</h1>
                             <p className='text-[#333333]'>

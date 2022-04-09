@@ -20,6 +20,7 @@ import Learn from './pages/Learn'
 import CoursesDetail from './pages/CoursesDetail'
 import VideoLearn from './pages/VideoLearn'
 import LearnLayout from './pages/layouts/LearnLayout'
+import LearningPath from './pages/LearningPath'
 
 function App() {
   const [posts, setPosts] = useState<postType[]>([]);
@@ -64,12 +65,10 @@ function App() {
               <Route index element={<CoursesDetail />} />
             </Route>
           </Route>
+          <Route path='route' element={<LearningPath />} />
         </Route>
 
-        <Route path='courses' element={<LearnLayout />}>
-          <Route path=':id'>
-            <Route path='learn' element={<VideoLearn />} />
-          </Route>
+        <Route path='/learn/:slug' element={<VideoLearn />}>
         </Route>
 
         <Route path='/personal' element={<PersonalLayout />}>

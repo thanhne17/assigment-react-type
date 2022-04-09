@@ -58,14 +58,14 @@ const CoursesDetail = (props: Props) => {
       if (data.is_registered.includes(coure?.slug)) {
         return (
           <div className="mt-[20px]">
-            <NavLink to="learn" className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white bg-[orange] rounded-3xl'>Tiếp tục học</NavLink>
+            <NavLink to={`/learn/${coure?.slug}`} className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white bg-[orange] rounded-3xl'>Tiếp tục học</NavLink>
           </div>
 
         )
       }
       else {
         return (
-          <div className="">
+          <NavLink to={`/learn/${coure?.slug}`} className="">
             <button onClick={() => {
               const id = JSON.parse(localStorage.getItem("user")).data._id;
               const getUserInfo = async (id: String) => {
@@ -83,7 +83,7 @@ const CoursesDetail = (props: Props) => {
                         console.log(result);
                         localStorage.removeItem("user");
                         authenticated(result, ()=>{
-                          navigate("learn")
+                          // navigate("learn")
                         })
                       })
                   })
@@ -92,7 +92,7 @@ const CoursesDetail = (props: Props) => {
               getUserInfo(id)
 
             }} className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>đăng kí</button>
-          </div>
+          </NavLink>
         )
       }
 
@@ -100,7 +100,7 @@ const CoursesDetail = (props: Props) => {
     else {
       return (
         <div className="mt-[20px]">
-          <NavLink to="learn" className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>Đăng kí</NavLink>
+          <NavLink to={`/learn/${coure?.slug}`} className='hover:bg-black duration-100 py-[10px] px-[30px] text-lg font-semibold text-white mt-[20px] bg-[orange] rounded-3xl'>Đăng kí</NavLink>
         </div>
       )
     }

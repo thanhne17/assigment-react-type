@@ -24,6 +24,10 @@ i {
   animation: dropdown .3s;
 }
 
+.active {
+  background: #f0f0f0;
+}
+
 .show {
   display: block;
 }

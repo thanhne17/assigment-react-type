@@ -15,7 +15,7 @@ const NavSite = (props: Props) => {
             <p className='text-xs'>Home</p>
         </Link>
 
-        <NavLink to="/" className="my-[10px]  w-[72px] text-[#000] text-center rounded-xl hover:bg-[#ccc]">
+        <NavLink to="route" className="my-[10px]  w-[72px] text-[#000] text-center rounded-xl hover:bg-[#ccc]">
             <i className="text-lg fa-solid fa-road"></i>
             <p className='text-xs'>Lộ trình</p>
         </NavLink>
