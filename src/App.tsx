@@ -21,6 +21,7 @@ import CoursesDetail from './pages/CoursesDetail'
 import VideoLearn from './pages/VideoLearn'
 import LearnLayout from './pages/layouts/LearnLayout'
 import LearningPath from './pages/LearningPath'
+import EditVideo from './pages/admin/video/editVideo'
 
 function App() {
   const [posts, setPosts] = useState<postType[]>([]);
@@ -84,6 +85,8 @@ function App() {
             <Route path='add' element={<PostAdd onAdd={onHandlerAdd} />} />
             <Route path='edit/:id' element={<PostsEdit onUpdate={onHandlerUpdate} />} />
           </Route>
+          <Route path='video/:slug' element={<EditVideo />}></Route>
+          <Route path='user' element={<PersonalPage />}></Route>
         </Route>
         <Route path='/signup' element={<SignUp />} />
         <Route path='/signin' element={<SignIn />} />

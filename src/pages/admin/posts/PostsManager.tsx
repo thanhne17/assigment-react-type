@@ -21,7 +21,7 @@ const PostsManager = (props: Props) => {
                             <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
                                 <th className="py-3 px-6 text-left">#</th>
                                 <th className="py-3 px-6 text-left">Title</th>
-                                <th className="py-3 px-6 text-center">Body</th>
+                                <th className="py-3 px-6 text-center">Image</th>
                                 <th colSpan={2} className="py-3 px-6 text-center">Actions</th>
                             </tr>
                         </thead>

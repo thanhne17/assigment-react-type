@@ -18,7 +18,7 @@ type Props = {}
 
 const AdminLayout = (props: Props) => {
   return (
-    <div>
+    <div className='bg-[#fff]'>
       <Layout style={{ minHeight: '100vh' }}>
             <Nav />
         <Layout className="site-layout">

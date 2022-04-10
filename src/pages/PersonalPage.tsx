@@ -40,32 +40,32 @@ const PersonalPage = (props: Props) => {
   }
 
   return (
-    <div className='w-[80%] mx-auto mt-[70px]'>
+    <div className='w-[80%] mx-auto mt-[70px]' >
       <h1 className='text-3xl font-semibold'>Cài đặt tài khoản</h1>
       <div className="w-[70%]">
         <p className='text-xl font-semibold border-b mt-[30px]'>Thông tin cá nhân</p>
         <form action="" onSubmit={handleSubmit(onSubmit)}>
           <div className="mt-[50px]">
             <label className='block font-semibold' htmlFor="name">Tên</label>
-            <input className='w-[70%] outline-0 border-b' type="text" {...register("name")} />
+            <input className='abcd w-[70%] outline-0 border-b' type="text" {...register("name")} />
             <p>Tên của bạn xuất hiện trên trang cá nhân và bên cạnh các bình luận của bạn.</p>
           </div>
 
           <div className="mt-[50px]">
             <label className='block font-semibold' htmlFor="email">Email</label>
-            <input className='w-[70%] outline-0 border-b' readOnly type="text" {...register("email")} />
+            <input className='abcd w-[70%] outline-0 border-b' readOnly type="text" {...register("email")} />
             <p>Email này sẽ giúp bạn đăng nhập vào hệ thống.</p>
           </div>
 
           <div className="mt-[50px]">
             <label className='block font-semibold' htmlFor="email">CreatedAt</label>
-            <input className='w-[70%] outline-0 border-b' readOnly type="text" {...register("createdAt")} />
+            <input className='abcd w-[70%] outline-0 border-b' readOnly type="text" {...register("createdAt")} />
             <p>Email này sẽ giúp bạn đăng nhập vào hệ thống.</p>
           </div>
 
           <div className="mt-[50px]">
             <label className='block font-semibold' htmlFor="email">UpdatedAt</label>
-            <input className='w-[70%] outline-0 border-b' readOnly type="text" {...register("updatedAt")} />
+            <input className='abcd w-[70%] outline-0 border-b' readOnly type="text" {...register("updatedAt")} />
             <p>Email này sẽ giúp bạn đăng nhập vào hệ thống.</p>
           </div>
 

@@ -101,14 +101,6 @@ const PostsEdit = (props: Props) => {
                 </form>
             </div>
         </div>
-        //     <form action="" onSubmit={handleSubmit(onSubmit)}>
-        //     <input type="text" placeholder='Tên khóa học' {...register('title')} /> <br />
-        //     <input type="text" placeholder='Mô tả' {...register('description')} /><br />
-        //     <input type="file" placeholder='Ảnh' {...register('image_url')}/><br />
-        //     <input type="checkbox" value={true} {...register("isFontEnd")} /><br />
-        //     <input type="checkbox" value={true} {...register("isBackEnd")} /><br />
-        //     <button>Update</button><br />
-        //   </form>
     )
 }
 

@@ -24,8 +24,13 @@ i {
   animation: dropdown .3s;
 }
 
-.active {
-  background: #f0f0f0;
+.tab-active {
+  background: orange;
+  color: #fff;
+}
+
+.abcd {
+  background-color: #f0f2f500;
 }
 
 .show {
