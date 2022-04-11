@@ -22,6 +22,8 @@ import VideoLearn from './pages/VideoLearn'
 import LearnLayout from './pages/layouts/LearnLayout'
 import LearningPath from './pages/LearningPath'
 import EditVideo from './pages/admin/video/editVideo'
+import EditAccount from './pages/admin/account/EditAccount'
+import ManagerAccount from './pages/admin/account/ManagerAccount'
 
 function App() {
   const [posts, setPosts] = useState<postType[]>([]);
@@ -87,6 +89,10 @@ function App() {
           </Route>
           <Route path='video/:slug' element={<EditVideo />}></Route>
           <Route path='user' element={<PersonalPage />}></Route>
+          <Route path='manager-account'>
+            <Route index  element={<EditAccount />} />
+            <Route path='edit/:id' element={<ManagerAccount />} />
+          </Route>
         </Route>
         <Route path='/signup' element={<SignUp />} />
         <Route path='/signin' element={<SignIn />} />

@@ -90,9 +90,9 @@ type Props = {}
 const Nav = (props: Props) => {
   const [course, setCourse] = useState([]);
 
-  useEffect(()=>{
-    const getCourse =async () => {
-      const {data} = await getAllRoute();
+  useEffect(() => {
+    const getCourse = async () => {
+      const { data } = await getAllRoute();
       setCourse(data)
     }
     getCourse()
@@ -105,20 +105,25 @@ const Nav = (props: Props) => {
           <img className='w-[85px] inline mr-[10px]' src="https://static1.squarespace.com/static/5b60a7583e2d0997aa82bb05/t/5d0f643aa71ad0000103a8d5/1643900387317/" alt="" />
         </div>
       </Link>
-      <Menu  className='sticky top-0' theme="dark" defaultSelectedKeys={['1']} mode="inline">
+      <Menu className='sticky top-0' theme="dark" defaultSelectedKeys={['1']} mode="inline">
         <Menu.Item key="1" icon={<PieChartOutlined />}>
           <NavLink to="/admin">Dashboad</NavLink>
         </Menu.Item>
         <Menu.Item key="2" icon={<DesktopOutlined />}>
           <NavLink to="/admin/posts">Khóa học</NavLink>
         </Menu.Item>
-        <Menu.Item key="sub1" icon={<UserOutlined />} title="Người dùng">
-          <NavLink to="/admin/user">Người dùng</NavLink>
-        </Menu.Item>
+        <SubMenu key="sub1" icon={<UserOutlined />} title="Người dùng">
+          <Menu.Item key="3">
+            <NavLink to="/admin/user">Tài khoản của tôi</NavLink>
+          </Menu.Item>
+          <Menu.Item key="4">
+            <NavLink to="/admin/manager-account">Quản lý tài khoản</NavLink>
+          </Menu.Item>
+        </SubMenu>
         <SubMenu key="sub2" icon={<i className="fa-brands fa-leanpub"></i>} title="Bài học">
-          {course?.map((Element, index)=>{
+          {course?.map((Element, index) => {
             return (
-              <Menu.Item key={index + 6}>
+              <Menu.Item key={index + 5}>
                 <NavLink to={`video/${Element?.slug}`}>{Element?.title}</NavLink>
               </Menu.Item>
             )

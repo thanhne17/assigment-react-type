@@ -8,8 +8,7 @@ type Props = {
     onUpdate: () => void
 }
 type FormInput = {
-    name: String,
-    body: String
+
 }
 
 const PostsEdit = (props: Props) => {

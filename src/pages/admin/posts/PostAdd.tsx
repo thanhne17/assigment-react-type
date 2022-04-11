@@ -32,11 +32,11 @@ const PostAdd = (props: PropsPostAdd) => {
         data.image_url = res.data.url;
         console.log(data);
         props.onAdd(data);
+        navigate("/admin/posts")
         
       })
     
     
-    // navigate("/admin/posts")
   }
 
   return (
@@ -49,25 +49,25 @@ const PostAdd = (props: PropsPostAdd) => {
                 <form action="" onSubmit={handleSubmit(onSubmit)}>
                     <div className="mt-[50px]">
                         <label className='block font-semibold' htmlFor="name">Tên khóa học:</label>
-                        <input className='bg-[#f0f2f5] w-[70%] outline-0 border-b' type="text" {...register("title")} />
+                        <input className='bg-[#f0f2f5] w-[70%] outline-0 border-b' type="text" {...register("title", {required: true})} />
                         <p>Tên cùng với ảnh sẽ giúp người dùng dễ nhận biết hơn.</p>
                     </div>
 
                     <div className="mt-[50px]">
                         <label className='block font-semibold' htmlFor="email">Mô tả:</label>
-                        <textarea className='bg-[#f0f2f5] w-[70%] outline-0 border-b' {...register("description")}></textarea>
+                        <textarea className='bg-[#f0f2f5] w-[70%] outline-0 border-b' {...register("description", {required: true})}></textarea>
                         <p>Mô tả khái quát về khóa học.</p>
                     </div>
 
                     <div className="mt-[50px]">
                         <label className='block font-semibold' htmlFor="email">Font end:</label>
-                        <input className='bg-[#f0f2f5] w-[70%] outline-0 border-b' type="checkbox" {...register("isFontEnd")} />
+                        <input className='bg-[#f0f2f5] w-[70%] outline-0 border-b' type="checkbox" {...register("isFontEnd", {required: true})} />
                         <p>Người tạo ra giao diện trang web.</p>
                     </div>
 
                     <div className="mt-[50px]">
                         <label className='block font-semibold' htmlFor="email">Back end:</label>
-                        <input className='bg-[#f0f2f5] w-[70%] outline-0 border-b' type="checkbox" {...register("isBackEnd")} />
+                        <input className='bg-[#f0f2f5] w-[70%] outline-0 border-b' type="checkbox" {...register("isBackEnd", {required: true})} />
                         <p>Người làm việc với dữ liệu...</p>
                     </div>
 
@@ -82,24 +82,20 @@ const PostAdd = (props: PropsPostAdd) => {
                                     <label htmlFor="file-upload" className="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                                         <span>Upload a file</span>
                                     </label>
-                                    <input id='file-upload' className='bg-[#f0f2f5] sr-only' type="file" {...register("image_url")} />
+                                    <input id='file-upload' className='bg-[#f0f2f5] sr-only' type="file" {...register("image_url", {required: true})} />
                                 </div>
                             </div>
                         </div>
                     </div>
+                    {Object.keys(errors).length !== 0 && (
+                        console.log(errors.title)
+                        
+                    )}
 
                     <button className='mt-[50px] bg-[orange] p-[10px] rounded-md hover:bg-black hover:text-white transition-transform'>Thêm</button>
                 </form>
             </div>
         </div>
-          {/* <form action="" onSubmit={handleSubmit(onSubmit)}>
-            <input type="text" placeholder='Tên khóa học' {...register('title')} /> <br />
-            <input type="text" placeholder='Mô tả' {...register('description')} /><br />
-            <input type="file" placeholder='Ảnh' {...register('image_url')}/><br />
-            <input type="checkbox" value={true} {...register("isFontEnd")} /><br />
-            <input type="checkbox" value={true} {...register("isBackEnd")} /><br />
-            <button>Add</button><br />
-          </form> */}
       </div>
   )
 }
