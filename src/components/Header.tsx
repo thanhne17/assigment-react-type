@@ -88,10 +88,10 @@ const Header = (props: Props) => {
                     <span className='text-[#000] font-semibold'>Học lập trình để đi làm</span>
                 </Link>
 
-                <div className="search w-[400px] h-[40px] relative">
-                    <input className='border rounded-3xl w-[100%] h-[100%] indent-[30px] hover:border-[#333333] hover:border-[2px] duration-300' placeholder='Tìm kiếm khóa học, bài viết...' type="text" name="" id="" />
+                <form className="search w-[400px] h-[40px] relative">
+                    <input className='border rounded-3xl w-[100%] h-[100%] indent-[30px] hover:border-[#333333] hover:border-[2px] duration-300' placeholder='Tìm kiếm khóa học, bài viết...' type="text" name="q" id="" />
                     <i className="fa-solid fa-magnifying-glass text-lg text-[#bbb] absolute top-[50%] left-[5px] translate-y-[-50%] hover:text-[#000] hover:cursor-pointer"></i>
-                </div>
+                </form>
                 <div className="">
                     <div className="inline relative">
                         <span className='nut_dropdown2 text-[#333333] font-semibold cursor-pointer hover:text-[#ccc] duration-300'>Khóa học của tôi</span>

@@ -24,6 +24,7 @@ import LearningPath from './pages/LearningPath'
 import EditVideo from './pages/admin/video/editVideo'
 import EditAccount from './pages/admin/account/EditAccount'
 import ManagerAccount from './pages/admin/account/ManagerAccount'
+import PriveateRoute from './components/PriveateRoute'
 
 function App() {
   const [posts, setPosts] = useState<postType[]>([]);
@@ -80,7 +81,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path='admin' element={<AdminLayout />}>
+        <Route path='admin' element={<PriveateRoute><AdminLayout /></PriveateRoute>}>
           <Route index element={<Index />} />
           <Route path='posts'>
             <Route index element={<PostsManager posts={posts} onRemove={onHandlerRemove} />} />

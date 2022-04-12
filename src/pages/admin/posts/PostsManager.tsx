@@ -11,8 +11,8 @@ const PostsManager = (props: Props) => {
     return (
         <div className="w-[100%] min-h-screen bg-gray-100 bg-gray-100">
             <div className="flex justify-between items-center">
-                <h1 className='font-semibold text-2xl'>Courses Manager</h1>
-                <NavLink className="bg-[orange] text-black px-[10px] py-[5px] rounded-md hover:text-white text-lg" to="/admin/posts/add">Add</NavLink>
+                <h1 className='font-semibold text-2xl'>Quản lí khóa học</h1>
+                <NavLink className="bg-[orange] text-black px-[10px] py-[5px] rounded-md hover:text-white text-lg" to="/admin/posts/add">Thêm khóa học</NavLink>
             </div>
             <div className="w-full">
                 <div className="bg-white shadow-md rounded my-6">
